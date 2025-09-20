@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>main</title>
+</head>
+<body>
+    <h1>Funds AUM by fund type: </h1>
+    <ul>
+        {% for key, value in AUM_by_fund_types.items %}
+            <li>{{ key }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
